@@ -12,6 +12,10 @@ public class UserController {
     return new User("Shankar","V","R",39).getUser();
 }
 
+@GetMapping("greet")
+    public String greet(){
+    return "Hello";
+}
 
 
 }
